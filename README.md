@@ -23,7 +23,7 @@ This action creates a build configuration from the existing branch config for Ap
 ## Example usage
 
 ```
-uses: actions/app-center-create-configuration@v1
+uses: meercodeio/app-center-create-configuration@1.1
 with:
   appcenter-token: '${{ secrets.APP_CENTER_TOKEN }}'
   source-branch: 'develop'
