@@ -1,7 +1,7 @@
 name: 'Create Build configuration for App Center'
-description: 'Greet someone and record the time'
+description: 'This action creates a build configuration from the existing branch config for App Center CI'
 inputs:
-  appcenter-token:  # id of input
+  appcenter-token:
     description: 'Value of your App Center token'
     required: true
   project-id:

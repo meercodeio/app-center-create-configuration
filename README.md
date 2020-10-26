@@ -1,6 +1,6 @@
 # Creating build configuration for App Center
 
-This action cloning build configuration for App Center CI.
+This action creates a build configuration from the existing branch config for App Center CI
 
 ## Inputs
 

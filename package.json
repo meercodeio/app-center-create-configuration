@@ -1,7 +1,7 @@
 {
   "name": "app-center-create-configuration",
   "version": "1",
-  "description": "This action cloning build configuration for App Center CI.",
+  "description": "This action creates a build configuration from the existing branch config for App Center CI",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
