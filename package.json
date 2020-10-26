@@ -1,0 +1,24 @@
+{
+  "name": "app-center-create-configuration",
+  "version": "1",
+  "description": "This action cloning build configuration for App Center CI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meercodeio/app-center-create-configuration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meercodeio/app-center-create-configuration/issues"
+  },
+  "homepage": "https://github.com/meercodeio/app-center-create-configuration#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "axios": "^0.21.0"
+  }
+}

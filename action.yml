@@ -1,0 +1,18 @@
+name: 'Create Build configuration for App Center'
+description: 'Greet someone and record the time'
+inputs:
+  appcenter-token:  # id of input
+    description: 'Value of your App Center token'
+    required: true
+  project-id:
+    description: 'Name of your project ({{org/project_name}})'
+    required: true
+  source-branch:
+    description: 'Name of your source branch name (cloneFromBranch)'
+    required: true
+  target-branch:
+    description: 'Name of your target branch ({{current_branch}})'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
